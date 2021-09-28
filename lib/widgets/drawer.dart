@@ -5,7 +5,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageUrl =
-        "https://media.beliefnet.com/~/media/photos-with-attribution/entertainment/movies/jack-sparrow_credit-walt-disney-studios.jpg?as=1&extension=webp";
+        "https://th.bing.com/th/id/R.ed650ec228d7aaf62b87ab84aa1fc693?rik=kt%2fM9gK08Z0m%2bA&pid=ImgRaw&r=0";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
