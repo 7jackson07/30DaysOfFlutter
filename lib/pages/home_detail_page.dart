@@ -10,7 +10,9 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
         color: Colors.white,
@@ -28,7 +30,7 @@ class HomeDetailPage extends StatelessWidget {
                   shape: MaterialStateProperty.all(
                     StadiumBorder(),
                   )),
-              child: "Buy".text.make(),
+              child: "Add to cart".text.make(),
             ).wh(100, 50)
           ],
         ).p32(),
@@ -57,6 +59,10 @@ class HomeDetailPage extends StatelessWidget {
                         .make(),
                     catalog.desc.text.xl.make(),
                     10.heightBox,
+                    "I have iphone 12 pro max as well as xperia 1 ii both are great phones iphone camera and media consumption best phone and xperia for browsing and gaming but battery life is not good at all in both Thanks"
+                        .text
+                        .make()
+                        .p16()
                   ],
                 ).py64(),
               ),
