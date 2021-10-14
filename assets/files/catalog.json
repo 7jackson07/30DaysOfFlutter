@@ -1,0 +1,73 @@
+{
+"products": [
+{
+        "id": 1,
+        "name": "iPhone 12 Pro",
+        "desc": "Apple iphone 12th generation",
+        "price": 1000,
+        "color": "#33505a",
+        "image":
+            "https://cdn.shopify.com/s/files/1/0556/3010/2712/products/Untitled-1_0001_71p2mApMN0L._AC_SL1500.jpg?v=1628226683"
+    },{
+        "id": 2,
+        "name": "samsang s10 plus",
+        "desc": "Samsung 13th generation",
+        "price": 999,
+        "color": "#33505a",
+        "image":
+            "https://images.firstpost.com/fpimages/1200x800/fixed/jpg/2019/02/Samsung-Galaxy-S10-lineup-720.jpg"
+    },{
+        "id": 3,
+        "name": "Nokia lumia",
+        "desc": "Nokia Lumia 9th generation",
+        "price": 700,
+        "color": "#33505a",
+        "image":
+            "https://m.media-amazon.com/images/I/81yPzCPWegL._AC_SX569_.jpg"
+    },{
+        "id": 4,
+        "name": "iPhone 13 Pro Max",
+        "desc": "Apple iphone 13th generation",
+        "price": 901,
+        "color": "#33505a",
+        "image":
+            "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/iPhone_13_12s_all_colors.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Microsoft",
+        "desc": "Window Phone 12th generation",
+        "price": 400,
+        "color": "#33505a",
+        "image":
+            "https://news-cdn.softpedia.com/images/news2/this-is-the-surface-android-phone-that-microsoft-must-launch-531057-7.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hp Laptop",
+        "desc": "Hp Laptop 8th generation",
+        "price": 1980,
+        "color": "#33505a",
+        "image":
+            "https://m.media-amazon.com/images/I/81LaRDm7leL._SL1500_.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dell XPS",
+        "desc": "Dell XPS 10th generation",
+        "price": 706,
+        "color": "#33505a",
+        "image":
+            "https://www.lifewire.com/thmb/9Ica_Nayz8b01w0TrQqE-0HUtYw=/1500x1000/filters:no_upscale()/_hero_horiz_Dell-XPS-7390-7954SLV-2-in-1-Laptop-1-0370e04434494fe28ea93857af307a0e.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Lenovo ThinkPad",
+        "desc": "Lenovo ThinkPad 10th generation",
+        "price": 543,
+        "color": "#33505a",
+        "image":
+            "https://i.pcmag.com/imagery/reviews/01pOKerPCWrIkTVvuKN4Leh-3..1569472124.jpg"
+    }
+]
+}
