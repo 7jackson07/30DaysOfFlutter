@@ -20,10 +20,13 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext context) => ThemeData(
         brightness: Brightness.dark,
         appBarTheme: AppBarTheme(
-            color: Colors.black,
-            elevation: 0.0,
-            iconTheme: IconThemeData(color: Colors.white),
-            textTheme: Theme.of(context).textTheme),
+          color: Colors.black,
+          elevation: 0.0,
+          iconTheme: IconThemeData(color: Colors.white),
+          textTheme: Theme.of(context).textTheme.copyWith(
+                headline6: TextStyle(color: Colors.white),
+              ),
+        ),
         cardColor: Colors.black,
         buttonColor: lightBluishColor,
         accentColor: Colors.white,
